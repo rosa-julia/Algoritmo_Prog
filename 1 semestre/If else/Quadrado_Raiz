@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+//Programa que recebe um numero positivo, calcula a raiz quadrada dele e apresenta a raiz
+
+	int num, quadrado, raiz;
+	
+	printf("Insira um numero a ser calculado: \n");
+	scanf("%d", &num);
+	
+	if (num>0) 
+	{
+	quadrado = pow (num,2);
+	raiz = sqrt (num);
+	
+	printf("\n Numero: %d\n Quadrado: %d\n Raiz: %d\n", num, quadrado, raiz);
+}
+	else
+	printf("O numero deve ser positivo para o calculo.");
+}
