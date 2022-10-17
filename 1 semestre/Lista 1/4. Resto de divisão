@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+	//algoritmo que a partir da leitura de dois números fornece o resto e o
+	//quociente da divisão do primeiro pelo segundo número
+
+	int valorA, valorB, restoDivisao, valorDivisao;
+	
+	printf("Digite o valor A\n");
+	scanf("%d", &valorA);
+	printf("Digite o valor B\n");
+	scanf("%d", &valorB);
+	//calculos
+	restoDivisao = valorA % valorB;
+	valorDivisao = valorA / valorB;
+	//apresentar resultados
+	printf("Resto: %d\n", restoDivisao);
+	printf("Valor: %d\n",valorDivisao);
+	
+}
