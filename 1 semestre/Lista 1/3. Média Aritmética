@@ -1,0 +1,20 @@
+#include <stdio.h>
+//Algoritmo que calcula a média aritmética de 3 números quaisquer
+//fornecidos pelo usuário
+
+int main(){
+	float numero1, numero2, numero3, media;
+	
+	printf("Digite o 1 numero \n");
+	scanf("%f", &numero1);
+	printf("Digite o 2 numero \n");
+	scanf("%f", &numero2);
+	printf("Digite o 3 numero \n");
+	scanf("%f", &numero3);
+	
+	media = (numero1+numero2+numero3)/3;
+	printf("Media: %.2f", media);
+	
+	
+	
+}
