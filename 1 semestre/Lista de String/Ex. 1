@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+//Programa que le um nome inteiro e indica quantos caracteres ele possui.
+
+int main(){
+	char nome[50];
+	
+	printf("Digite seu nome completo: \n");
+		fgets(nome,50,stdin);
+	printf("Tamanho do nome: %lu caracteres\n", strlen(nome));
+	
+}
